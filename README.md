@@ -13,7 +13,7 @@ Template de projet frontend structuré avec les dépendances suivantes :
 
 ```bash
 # Cloner le projet
-git clone [url-du-repo] my-project
+git clone https://github.com/Vyxs/Template-Frontend.git myProject
 
 # Installer les dépendances
 npm install
@@ -33,7 +33,8 @@ npm run dev
 │   │   ├── molecules/        # Composants composés (formulaires, cards)
 │   │   └── organisms/        # Composants complexes (header, sidebar)
 │   ├── config/               # Configuration de l'application
-│   ├── contexts/             # Contextes React pour l'état global
+│   ├── contexts/             # Définition des contextes React
+│   ├── providers/            # Implémentation des providers de contexte
 │   ├── hooks/                # Hooks personnalisés
 │   ├── pages/                # Composants de page
 │   ├── router/               # Configuration du routage
